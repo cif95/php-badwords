@@ -1,0 +1,33 @@
+body {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+main {
+	color: rgb(66, 66, 66);
+	padding: 2rem;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #81D8D0;
+}
+
+section {
+	flex-basis: 50%;
+}
+
+section q {
+	font-style: italic;
+	color: white;
+	text-shadow: 1px 1px 3px rgb(66, 66, 66);
+	font-size: 1.5rem;
+}
+
+section span#p-lenght,
+section q {
+	margin-bottom: 3rem;
+	display: block;
+}
